@@ -201,3 +201,77 @@ body{
     background: rgb(255, 0, 0);
 }
 /* end time section  */
+
+/* start new offer section  */
+.new-offer{
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.new-offer-banner{
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.new-offer-banner > .box1,.box2,.box3{
+    width: 30%;
+}
+.new-offer-banner > .box1 > p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.new-offer-banner > .box1 > h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.new-offer-banner > .box1 > span{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.new-offer-banner > .box1{
+    padding-right: 50px;
+}
+.new-offer-banner > .box2{
+    box-sizing: border-box;
+    border-radius: 250px;
+    border: 15px solid rgb(255, 0, 0);
+}
+.new-offer-banner > .box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.new-offer-banner > .box3> h2{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 120px;
+    
+}
+.new-offer-banner > .box3> span{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 135px;
+    margin-bottom: 30px;
+}
+
+/* end new offer section  */
