@@ -275,3 +275,69 @@ body{
 }
 
 /* end new offer section  */
+
+/* start holiday section  */
+.holiday{
+    width: 1440px;
+    height: 1040px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.holiday-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.holiday-content{
+    width: 1068px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.holiday-discount{
+    width: 1320px;
+    height: 662.07px;;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+.holiday-discount > .gift-box{
+    width: 700px;
+    height: 620px;
+    z-index: 1;
+
+}
+
+.red-bar{
+    width: 1320px;
+    height: 229px;
+    margin-top: -240px;
+    border-radius: 16px 0px 16px 16px;
+    background: rgb(255, 0, 0);
+   
+}
+.holiday-content > p {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.holiday-content > h2{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.holiday-content > small{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* end holiday section  */
