@@ -36,7 +36,6 @@ body{
     width: 632px;
     height: 246px;
     text-align: center;
-    border: 2px solid red;
 }
 .banner-content > p{
     color: rgb(255, 255, 255);
@@ -67,7 +66,6 @@ body{
 .offer-content{
     width: 802.9px;
     height: 806px;
-    border: 2px solid red;
     text-align: center;
 
 }
@@ -103,4 +101,56 @@ body{
     height: 500px;
 }
 /* end offer section  */
+
+/* start welcome section */
+.welcome{
+    width: 1440px;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-banner{
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-content{
+    width: 697px;
+    height: 450px;
+}
+.welcome-content > h2{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.welcome-content > small {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+.welcome-content > p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    margin-top: 48px;
+    text-transform: uppercase;
+}
+.welcome-content > p > a{
+    text-decoration: none;
+    color: white;
+}
+/* end welcome section */
 
